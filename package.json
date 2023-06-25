@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "scripts": {
+        "postinstall": "dotnet tool restore",
+        "start": "dotnet fable watch src/App -o build"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^8.0.2"
+    }
+}
